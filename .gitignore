@@ -1,0 +1,24 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+.vscode/
+.idea/
+cmd/grpc-client/grpc-client
+cmd/grpc-server/grpc-server
+cmd/grpc-server/assets/
+*.toml
+cmd/grpc-server/run.sh
+cmd/grpc-server/.env
+cmd/rest-api/.env
+cmd/tmp/
+cmd/deleteme/
+.env
